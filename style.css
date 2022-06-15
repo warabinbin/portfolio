@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-.topNavigation{
+.style{
     height: 70px;
     text-align: center;
     background-color: #888;
