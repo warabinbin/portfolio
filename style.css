@@ -1,17 +1,20 @@
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+/* container */
+.wrapper{
+    width:100%;
 }
-.style{
-    height: 70px;
-    text-align: center;
-    background-color: #888;
-    color: #fff;
+.wrapper .container{
+    max-width:1000px;
+    margin:0px auto;
+    padding:80px 0px;
 }
-.content{
-    flex: 1;
-    background-color: #eee;
+/* content */
+.wrapper .content {
+    padding:50px;
+    text-align:center;
+}
+.wrapper .content .heading{
+    margin:0px 0px 40px 0px;
+    font-size: 24px;
+    font-weight: normal;
     text-align: center;
-    margin-top: 10px;
 }
